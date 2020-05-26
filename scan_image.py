@@ -4,9 +4,6 @@ cwd = os.getcwd()
 
 from PIL import Image
 
-
-#im = Image.open("C:\Users\dhire\Downloads\python_graph_scan\graph_female.jpeg")
-
 im = Image.open("test.png")
 
 width, height = im.size
