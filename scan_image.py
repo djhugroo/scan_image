@@ -4,7 +4,7 @@ cwd = os.getcwd()
 
 from PIL import Image
 
-im = Image.open("test\_.png")
+im = Image.open("test.png")
 
 width, height = im.size
 
@@ -20,4 +20,4 @@ mylist3 = mylist[1][-1]
 
 print(mylist2)
 
-print(mylist33)
+print(mylist3)
