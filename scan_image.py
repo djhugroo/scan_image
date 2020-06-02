@@ -6,8 +6,6 @@ from PIL import Image
 
 im = Image.open("test.png")
 
-print("Message on master the branch")
-
 width, height = im.size
 
 print(width,height)
